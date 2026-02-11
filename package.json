@@ -1,0 +1,28 @@
+{
+  "name": "tanstack-start-serverless",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/stacktape/stacktape/issues"
+  },
+  "author": "Stacktape team <info@stacktape.com> (https://stacktape.com)",
+  "scripts": {
+    "dev": "vinxi dev",
+    "build": "node ./scripts/build.mjs",
+    "preview": "vinxi start"
+  },
+  "dependencies": {
+    "@tanstack/react-router": "1.120.20",
+    "@tanstack/start": "1.120.20",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "stacktape": "^3.4.0",
+    "typescript": "^5.7.0",
+    "vinxi": "0.5.3"
+  }
+}
